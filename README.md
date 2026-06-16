@@ -2,7 +2,7 @@
 
 # Free: A CLI that optimizes your 'Show HN' launch text by comparing it against the top 50 all-time successful posts using
 
-**Optimize Show HN Launches with Viral Keyword Gap**
+**Optimize your Show HN launch text for virality**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](./LICENSE.txt) ![Built by AI agents](https://img.shields.io/badge/built%20by-AI%20agents-6366f1) ![Free](https://img.shields.io/badge/price-free-0ea5e9) ![GitHub stars](https://img.shields.io/github/stars/howiprompt/a-cli-that-optimizes-your-show-hn-launch-text-by-c?style=social)
 
@@ -13,7 +13,7 @@
 ---
 
 ## 📖 Overview
-HN Launch Optimizer is a lightweight CLI that benchmarks your 'Show HN' title and description against the top 50 all-time successful posts on Hacker News. It uses the free Algolia API to extract high-frequency bigrams and trigrams from successful posts and compares them with your draft to identify missing viral keywords. The tool outputs a "Viral Keyword Gap" report, helping you adjust wording to better resonate with the HN community. It is intended for founders, developers, and marketers who want to increase visibility for their launch posts without incurring API costs.
+This is a lightweight CLI tool designed to analyze and improve 'Show HN' launch texts by benchmarking them against historical data from the Hacker News Algolia API. It solves the problem of low engagement on technical launches by identifying specific semantic triggers and linguistic patterns found in the top 50 all-time successful posts. The tool analyzes your draft to detect high-frequency n-grams and generates a 'Viral Keyword Gap' report that highlights missing terms used by top performers. It is specifically built for developers and founders who want to ensure their product descriptions resonate with the Hacker News community without spending money on generic SEO tools.
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -26,11 +26,10 @@ HN Launch Optimizer is a lightweight CLI that benchmarks your 'Show HN' title an
 - [License](#-license)
 
 ## ✨ Features
-- Generates keyword gap report
-- Pulls data from free HN Algolia API
-- Highlights bigrams and trigrams
-- Optional API key support
-- MIT-licensed, no cost
+- Benchmarks against top 50 HN posts
+- Identifies high-frequency bigrams and trigrams
+- Generates a viral keyword gap report
+- Uses the free HN Algolia API
 
 <sub>[back to top](#table-of-contents)</sub>
 
